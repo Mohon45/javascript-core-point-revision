@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  /* display: flex; */
+}
+.A {
+  width: 100px;
+  background-color: red;
+  float: right;
+}
+.B {
+  width: 100px;
+  background-color: green;
+  float: right;
+}
+.C {
+  width: 100px;
+  background-color: violet;
+  float: left;
+}

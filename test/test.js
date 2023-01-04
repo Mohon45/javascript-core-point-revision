@@ -137,3 +137,24 @@
 // };
 
 // callbackTester(example, 10, 3);
+
+// var element = { name: "Md.Mohon", roll: "419310" };
+// element.push({ id: 1, quantity: "quantity" });
+
+// console.log(element);
+
+// {
+// 	"name": "Jhanker Mahbub",
+// 	"email": "jhankermhabub@gmail.com",
+// 	"PhoneNumber": "01782638193",
+// 	"address": "Puthia, Rajshahi",
+// 	"designation": "Teacher",
+// 	"teachingSubjects": {"Math", "Physics", "Biggan"},
+// 	"teachingClass": {6,7,8,9,10},
+// 	"currentEmployee": "Sikkha Board School & Collage",
+// 	"position": "Assistant teacher"
+// }
+
+const examples = ["1", "2", "3", "4"];
+
+const result = examples.map((example) => console.log(example));
