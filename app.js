@@ -15,10 +15,14 @@
 
 // export default Test;
 
-let chars = ["A", "B", "A", "C", "B", "F"];
+// let chars = ["A", "B", "A", "C", "B", "F"];
 
-let uniqueChars = chars.filter((c, index) => {
-  return chars.indexOf(c) === index;
-});
+// let uniqueChars = chars.filter((c, index) => {
+//   return chars.indexOf(c) === index;
+// });
 
-console.log(uniqueChars);
+// console.log(uniqueChars);
+
+for (var i = 0; i < 10; i++) {
+  setTimeout(() => console.log(i), 0);
+}
